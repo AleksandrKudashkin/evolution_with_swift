@@ -12,6 +12,8 @@
 		93538756204460360025E541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93538755204460360025E541 /* Assets.xcassets */; };
 		9353876120446A400025E541 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353876020446A400025E541 /* ProductViewController.swift */; };
 		9353876320446F740025E541 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9353876220446F740025E541 /* Launch Screen.storyboard */; };
+		93538765204479C80025E541 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93538764204479C80025E541 /* ContactViewController.swift */; };
+		93538767204487800025E541 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93538766204487800025E541 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9353875A204460360025E541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9353876020446A400025E541 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		9353876220446F740025E541 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		93538764204479C80025E541 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		93538766204487800025E541 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9353875A204460360025E541 /* Info.plist */,
 				9353876020446A400025E541 /* ProductViewController.swift */,
 				9353876220446F740025E541 /* Launch Screen.storyboard */,
+				93538764204479C80025E541 /* ContactViewController.swift */,
+				93538766204487800025E541 /* ProductsTableViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9353876120446A400025E541 /* ProductViewController.swift in Sources */,
+				93538767204487800025E541 /* ProductsTableViewController.swift in Sources */,
 				9353874F204460360025E541 /* AppDelegate.swift in Sources */,
+				93538765204479C80025E541 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
